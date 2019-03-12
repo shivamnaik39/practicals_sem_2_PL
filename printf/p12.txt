@@ -1,0 +1,28 @@
+p12.Program to print Fibonacci series up to 100.
+
+#include <stdio.h>
+
+
+int main()
+{
+
+        int i,a=0,b=1,c;
+
+        while(a<=100) {
+                printf("%d + ",a);
+                c=a+b;
+                a=b;
+                b=c;
+
+        }
+
+
+
+
+        return 0;
+}
+
+
+OUTPUT:
+
+0 + 1 + 1 + 2 + 3 + 5 + 8 + 13 + 21 + 34 + 55 + 89 +

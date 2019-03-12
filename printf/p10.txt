@@ -1,3 +1,5 @@
+p10.Program to use switch statement. Display Monday to Sunday.
+
 #include <stdio.h>
 
 int main() {
@@ -41,4 +43,3 @@ Enter the day number: 5
 
 
 The day is Friday.
-

@@ -1,0 +1,33 @@
+p8.Program to find whether given no is even or odd.
+
+#include <stdio.h>
+
+int main(){
+
+        int num;
+
+        printf("Enter a number: " );
+        scanf("%d", &num );
+
+        if (num%2==0) {
+
+                printf("%d is an Even Number.\n\n\n", num);
+        }
+
+        else{
+                printf("%d is a ODD Number.\n\n\n",num );
+        }
+
+
+
+        return 0;
+}
+
+
+OUTPUT:
+
+Enter a number: 57
+57 is a ODD Number.
+
+Enter a number: 38
+38 is an Even Number.

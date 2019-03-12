@@ -7,7 +7,7 @@ int main() {
         printf("\n\nEnter 3 numbers: " );
         scanf("%d %d %d",&a,&b,&c);
 
-        if (a>b || a>c) {
+        if (a>b && a>c) {
                 printf("\n\n%d is the greatest of the 3 numbers.\n",a );
         }
 

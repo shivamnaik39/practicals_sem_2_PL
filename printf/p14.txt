@@ -1,3 +1,5 @@
+p14.Program to find whether given no is a prime no or not.
+
 #include <stdio.h>
 
 int main() {
@@ -20,9 +22,17 @@ int main() {
         }
 
         else{
-                printf("%d is NOT a PRIME NUMBER.\n\n\n",num );
+                printf("%d is NOT a prime number.\n\n\n",num );
         }
 
 
         return 0;
 }
+
+OUTPUT:
+
+Enter a number: 97
+97 is a PRIME NUMBER.
+
+Enter a number: 9
+9 is NOT a PRIME NUMBER.
