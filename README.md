@@ -21,7 +21,6 @@
 -   p13.Program to find factorial of a number.
 -   p14.Program to find whether given no is a prime no or not.
 -   p15.Program to display series and find sum of 1+3+5+........+n.
--   p15.Program to display series and find sum of 1+3+5+........+n.
 -   p16.Program to use bitwise AND operator between the two integers.
 -   p17.Program to add two number using pointer.
 -   p18.Program to show sum of 10 elements of array & show the average.
@@ -36,3 +35,5 @@
 -   p27.Program to show call by reference.
 -   p28.Program to find factorial of a number using recursion.
 -   p29.Program to find whether a string is palindrome or not.
+
+-   

@@ -1,0 +1,32 @@
+ p25.Program to find square of a number using functions.
+
+ #include <stdio.h>
+
+ int squre(int n);
+
+
+ int main(){
+         int num;
+
+         printf("Enter a number: " );
+         scanf("%d",&num );
+
+         printf("\n\nThe squre of %d is %d.\n",num,squre(num) );
+
+
+
+         return 0;
+ }
+
+ int squre(int n){
+
+         return n*n;
+ }
+
+
+OUTPUT:
+
+Enter a number: 17
+
+
+The squre of 17 is 289.
