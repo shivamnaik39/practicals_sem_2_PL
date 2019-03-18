@@ -1,0 +1,87 @@
+//p19.Program to find sum of two matrices.
+
+
+#include <stdio.h>
+
+int main(){
+
+        int r,c,i,j;
+
+        printf("Enter the number of rows and columns of 2 matrices: " );
+        scanf("%d %d",&r,&c );
+
+        int a[r][c],b[r][c],d[r][c];
+
+
+        printf("\nEnter the elements of 1st matrix:\n" );
+        for (i=0; i<r; i++) {
+                for (j=0; j<c; j++) {
+
+                        scanf("%d",&a[i][j] );
+                }
+        }
+
+        printf("\nEnter the elements of 2nd matrix:\n" );
+        for (i=0; i<r; i++) {
+                for (j=0; j<c; j++) {
+
+                        scanf("%d",&b[i][j] );
+                }
+        }
+
+        printf("\n\nThe sum of two matrices is :\n" );
+
+        for (i=0; i<r; i++) {
+                for (j=0; j<c; j++) {
+
+                        d[i][j]=a[i][j]+b[i][j];
+
+                        printf("%d ",d[i][j] );
+                }
+                printf("\n" );
+        }
+
+
+        return 0;
+}
+
+
+
+
+
+
+
+
+
+
+OUTPUT:
+Enter the number of rows and columns of 2 matrices: 3
+3
+
+Enter the elements of 1st matrix:
+7
+8
+4
+2
+5
+0
+1
+7
+5
+
+Enter the elements of 2nd matrix:
+5
+7
+1
+2
+5
+7
+8
+9
+5
+
+
+The sum of two matrices is :
+12 15 5
+4 10 7
+9 16 10
