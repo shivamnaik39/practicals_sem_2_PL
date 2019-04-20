@@ -17,13 +17,13 @@ int main(){
 }
 
 /*
-OUTPUT:-
-Enter ta number:39
+   OUTPUT:-
+   Enter ta number:39
 
-39 is a ODD number.
+   39 is a ODD number.
 
-Enter ta number:64
+   Enter ta number:64
 
-64 is an EVEN number.
+   64 is an EVEN number.
 
-*/
+ */
